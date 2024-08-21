@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 3rem;
+  background-color: #2d2c2c;
+  color: #959090;
+}
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(70, 0, 141);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+li {
+  list-style: none;
+}
+
+menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+menu button.active {
+  background-color: #7925d3;
+  color: #ebe7ef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.tab-content {
+  padding: 1rem;
+  background-color: #2f1d43;
+  color: #ebe7ef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  margin-left: 2.2rem;
+}
